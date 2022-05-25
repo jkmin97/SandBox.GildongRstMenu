@@ -17,7 +17,7 @@ const Menu = (props) => {
   );
 };
 
-const menuItems = ["짜장면", "짬뽕", "팔보채", "마파두부", "탕수육"];
+const menuItems = ["짜장면", "짬뽕", "팔보채", "마파두부", "탕수육", "볶음밥"];
 menuItems.yulim = function () {
   return <h1>나는 유림 {menuItems.junho}</h1>;
 };
